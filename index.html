@@ -11,34 +11,35 @@
 </body>
 </html>
 
-<!-- hi
-
-Git and Github
-Version Control System
-
-Git - Language how we communicate with Git hub (Bit bucket, git lab, herohu) storage
-
-Code repositories
-Local repo
-Remote repo
+<!-- 
 New Local Repository
-Git init
+ - git init
 
+Stage Changes to Commit
+ - git add <what-to-add>
+	 git add .
 
-Stage Changes to Cmmit
-Git add <What-to-add>
-Git add .
+Commit Staged Chages
+ - git commit -m "<explicit but short commit message>"
+	 git commit -m "Initial commit"
 
-Commit Stage Changes
-Git commit -m”<explicit but short commit message>”
-Git commit -m “Initial commit”
-
-Helpful notes 
-Git status.
-
-Create andmcheckout to new branch
-Git checkout out -b <new-branch-name>
+Create and checkout to new branch
+ - git checkout -b <new-branch-name>
 
 Checkout to branches
--git checkout <branch-name>
+ - git checkout <branch-name>
+
+Pushing changes to github (after adding and committing)
+ * First time on branch
+  - git push -u <remote> <branch>
+		git push origin rec/feature-branch
+
+ * After you've tracked the upstream branch
+  - git push
+
+Merging changes from a branch
+ * On the branch needing to take new changes
+ - git pull
+ - git merge <branch-name>
+ - git push
 -->
